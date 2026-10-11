@@ -10,16 +10,7 @@
 
 ---
 
-## 🌟 Hackathon Rubric Alignment
 
-| Evaluation Criteria | Weight | How StudyTwin AI Dominates This Requirement |
-| :--- | :---: | :--- |
-| **Knowledge Base & Grounding** | **20%** | Ingests Lecture Videos with Whisper timestamps (`00:14:22`), Textbooks with page # and diagram OCR (p.143), and Slides (Slide #18). Every claim contains clickable citation cards that jump directly to exact timestamps/pages. Strict Source Guard refuses out-of-domain queries. |
-| **Assessment Quality** | **15%** | Dual-stage question validation with Python AST formula verification for numerical problems. Embedding-based deduplication ensures $>95\%$ question novelty. Detailed post-assessment diagnostic reports with "Why Am I Wrong?" misconception analysis. |
-| **Personalization Effectiveness** | **20%** | Full Corbett-Anderson Bayesian Knowledge Tracing (BKT) tracking $P(L_t)$, Ebbinghaus forgetting curves, and diagnosed misconceptions. Multi-session simulation engine demonstrating $+43\%$ mastery gains across student archetypes. |
-| **User Experience & Demo Video** | **15%** | Production-ready glassmorphic Cyberpunk-Academic UI in Next.js + Tailwind. Interactive SVG Course Prerequisite Graph, Timestamped Video Player modal, 3D Leitner Spaced Flashcards, Exam Study Planner, and English/Hindi ("Hinglish") conceptual breakdowns. |
-| **System Evaluation** | **15%** | Integrated RAGAS / DeepEval-style 100-question automated benchmark suite reporting Faithfulness ($0.942$), Answer Relevancy ($0.931$), Context Precision ($0.915$), Context Recall ($0.887$), and Citation Accuracy ($95.8\%$). |
-| **Technical Implementation** | **15%** | Clean, decoupled FastAPI Python backend + Next.js App Router frontend with complete TypeScript interfaces, robust offline fallbacks, and comprehensive unit test coverage. |
 
 ---
 
@@ -97,12 +88,5 @@ npm install
 # Start development server
 npm run dev
 ```
-*Open `http://localhost:3000` in your browser to interact with StudyTwin AI.*
 
----
 
-## 📚 Project Documentation Links
-- [System Architecture & Specifications](docs/ARCHITECTURE.md)
-- [Bayesian Knowledge Tracing (BKT) Mathematical Formulations](docs/LEARNER_MODEL.md)
-- [Empirical Benchmark & Evaluation Report](docs/BENCHMARK_REPORT.md)
-- [5-Minute Demo Video Recording Script](docs/DEMO_VIDEO_SCRIPT.md)
